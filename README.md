@@ -4,6 +4,6 @@
 
 cd SpringMyBatisExam
 
-mvn compile
-
 mvn jetty:run
+
+mvn clean compile exec:java -Dexec.mainClass="com.test.MainTest"

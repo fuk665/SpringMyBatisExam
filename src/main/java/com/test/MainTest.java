@@ -48,7 +48,7 @@ public class MainTest {
 //				int s = dao.testt();
 //				
 				String s = dao.findAddressIdisE(address_id);
-				System.out.println(s+"11111111111111");
+//				System.out.println(s+"11111111111111");
 				if(s==null){
 					System.out.println("你输入的AddressId不存在，请重新输入");
 				}else{

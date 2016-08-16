@@ -5,7 +5,7 @@
 	
 <mapper namespace="com.dao.ICustomerDAO" >
 	
-	<select id="del" parameterType="int" >
+	<select id="delCus" parameterType="int" >
 		delete from customer where customer_id=#{customer_id}
 	</select>
 	
